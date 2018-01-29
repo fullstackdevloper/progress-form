@@ -1,0 +1,118 @@
+#peo-form p{ color:#333; font-size:16px;}
+#peo-form .fa-2x{font-size: 1.4em;}
+#peo-form h3{margin-bottom:10px;}
+#peo-form .progress{margin-top:5px; clear:both;}
+#peo-form .progress-bar-info{background-color:#c41c31}
+#peo-form .btn-group-horizontal label.btn {width:50%}
+#peo-form .note{font-size:13px;}
+#peo-form .well{border:none !important; padding:0px !important;box-shadow:none !important; -webkit-box-shadow:none !important; background-color: transparent !important;}
+#peo-form .text-next .submit{    border: 0px solid;
+    background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+}
+label.btn span , label >span{font-size: 1.2em ;}
+label input[type="radio"] ~ i.fa.fa-circle-o{color: #333;    display: inline;}
+label input[type="radio"] ~ i.fa.fa-dot-circle-o{display: none;}
+label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+    display: none;
+}
+label input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+    color: #c21d30;    display: inline;
+}
+label:hover input[type="radio"] ~ i.fa {
+color: #c21d30;
+}
+
+label input[type="checkbox"] ~ i.fa.fa-square-o{
+    color: #333;    display: inline;
+}
+label input[type="checkbox"] ~ i.fa.fa-check-square-o{
+    display: none;
+}
+label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
+    display: none;
+}
+label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
+    color: #c21d30;    display: inline;
+}
+label:hover input[type="checkbox"] ~ i.fa {
+color: #c21d30;
+}
+
+div[data-toggle="buttons"] label.active{
+    color: #000;
+}
+
+div[data-toggle="buttons"] label {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 2em;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	cursor: pointer;
+	background-color: none;
+	border: 0px solid #333;
+	border-radius: 3px;
+	color: #000;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+	color: #c21d30;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+#email-information {
+    background: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+#email-information p {font-size:13px;}
+.arrow_box {
+	position: relative;
+    background: #c41c31;
+    border: 1px solid #c41c31;
+    padding: 5px 5px 5px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+#address-info:after, #address-info:before {
+	left: 50%;
+}
+#address-info,#email-info,#zip-info{margin-bottom:5px;}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 5.4%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(196, 28, 49, 0);
+	border-top-color: #c41c31;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.arrow_box:before {
+	border-color: rgba(196, 28, 49, 0);
+	border-top-color: #c41c31;
+	border-width: 8px;
+	margin-left: -8px;
+}
